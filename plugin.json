@@ -1,0 +1,20 @@
+{
+    "id": "nodebb-plugin-map",
+    "name": "Geo Mapping",
+    "description": "Maps for geographic data",
+    "url": "https://github.com/automenta/nodebb-plugin-map",
+    "library": "./index.js",
+    "minver": "0.4.0",
+	"hooks": [
+
+	],    
+	"staticDirs": {
+		"public": "./public"
+	},
+	"scripts" : [
+		"public/main.js"
+	],
+	"css": [
+		"public/vendor/leaflet/leaflet.css"
+	]
+}
